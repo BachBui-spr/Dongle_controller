@@ -1,8 +1,0 @@
-Filepath,Checksum
-../../share/nrfutil-core/sbom.gzip,99fad8d5bea8d3de74c105cb00a2158b68b67453877c1255617dcb168392f01d
-../../share/nrfutil-core/licenses.json,2b357ff68f1784287545a4fc2a237664a87cee4be1c358f4a5bb060e9a531b46
-../../share/doc/nrfutil-core/html/style.css,9cea7f0c48f41a6deec954a1ca9fd01e834ff097d3555f366ea5243ae15328f8
-../../share/doc/nrfutil-core/html/index.html,fcd873f94e6fa23a02b3ff218fca80bf55ef2935a404d94f4b6f3ad22f282a1f
-../../share/doc/nrfutil-core/md/index.md,172724bee53e1bf6ea0acbd2363d9ba4a45d38961872bea267726b2fe841a3b8
-../../bin/nrfutil,5b3dbc9a86e44a10d54e5fa498404aaddf31922abaee1131d796b1454f61c345
-manifest.json,346fe0b24b7a695472fa85ab3aa749d380ab18a4fbb3cd67cdc2404cc95ed157

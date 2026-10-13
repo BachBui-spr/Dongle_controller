@@ -1,8 +1,0 @@
-[manifest]
-path = zephyr
-file = west.yml
-project-filter = -.*,+cmsis,+cmsis_6,+hal_nordic,+mbedtls,+tf-psa-crypto
-
-[zephyr]
-base = zephyr
-

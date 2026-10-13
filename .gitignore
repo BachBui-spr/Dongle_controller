@@ -1,0 +1,8 @@
+.venv/
+.nrfutil/
+bin/
+zephyr-sdk-*/
+*.tar.xz
+zephyrproject/
+radxa-hci-iso/build*/
+build.log

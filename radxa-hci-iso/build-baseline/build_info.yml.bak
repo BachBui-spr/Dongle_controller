@@ -1,5 +1,0 @@
-west:
-  command: /home/bbspr/nrf-hci-iso/.venv/bin/west build -p always -b nrf52840dongle/nrf52840
-    -d /home/bbspr/nrf-hci-iso/radxa-hci-iso/build-baseline /home/bbspr/nrf-hci-iso/radxa-hci-iso/firmware-baseline
-  topdir: /home/bbspr/nrf-hci-iso/zephyrproject
-  version: 1.5.0

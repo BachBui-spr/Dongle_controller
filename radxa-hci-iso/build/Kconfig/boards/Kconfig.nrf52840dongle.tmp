@@ -1,2 +1,0 @@
-# Load board Kconfig descriptions.
-osource "/home/bbspr/nrf-hci-iso/zephyrproject/zephyr/boards/nordic/nrf52840dongle/Kconfig.nrf52840dongle"
