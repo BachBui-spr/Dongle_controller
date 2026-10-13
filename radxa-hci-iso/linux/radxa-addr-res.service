@@ -1,0 +1,12 @@
+[Unit]
+Description=Giu co ADDRESS_RESOLUTION cho tai nghe LE Audio da ghep (BlueZ 5.72 + kernel 6.18 + dongle LL Privacy)
+# Chay cung dongle: radxa-nrf-hci.service keo len (Wants=), dung khi dongle bi rut (BindsTo=).
+# Dich vu RIENG, khong nam trong ExecStartPost cua radxa-nrf-hci: loi/cham o day khong bao gio lam btattach dung (F65).
+BindsTo=radxa-nrf-hci.service
+After=radxa-nrf-hci.service bluetooth.service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/sbin/radxa-addr-res.sh
+Restart=on-failure
+RestartSec=5

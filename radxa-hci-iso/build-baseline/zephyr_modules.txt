@@ -1,0 +1,5 @@
+"cmsis":"/home/bbspr/nrf-hci-iso/zephyrproject/modules/hal/cmsis":"${ZEPHYR_CMSIS_CMAKE_DIR}"
+"cmsis_6":"/home/bbspr/nrf-hci-iso/zephyrproject/modules/hal/cmsis_6":"${ZEPHYR_CMSIS_6_CMAKE_DIR}"
+"hal_nordic":"/home/bbspr/nrf-hci-iso/zephyrproject/modules/hal/nordic":"${ZEPHYR_HAL_NORDIC_CMAKE_DIR}"
+"mbedtls":"/home/bbspr/nrf-hci-iso/zephyrproject/modules/crypto/mbedtls":"${ZEPHYR_MBEDTLS_CMAKE_DIR}"
+"tf-psa-crypto":"/home/bbspr/nrf-hci-iso/zephyrproject/modules/crypto/tf-psa-crypto":""

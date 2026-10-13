@@ -1,0 +1,7 @@
+# nRF52840 Dongle chay firmware radxa-hci-iso (Zephyr HCI H4 qua USB CDC-ACM).
+# - Tao ten co dinh /dev/ttyRadxaHCI
+# - Khong cho ModemManager do cong (gui lenh AT se lam hong luong H4)
+# - Bao systemd chay radxa-nrf-hci.service (btattach) khi dongle duoc cam
+SUBSYSTEM=="tty", ATTRS{idVendor}=="2fe3", ATTRS{idProduct}=="0004", ATTRS{product}=="Radxa HCI ISO nRF52840", \
+    SYMLINK+="ttyRadxaHCI", ENV{ID_MM_DEVICE_IGNORE}="1", \
+    TAG+="systemd", ENV{SYSTEMD_WANTS}+="radxa-nrf-hci.service"

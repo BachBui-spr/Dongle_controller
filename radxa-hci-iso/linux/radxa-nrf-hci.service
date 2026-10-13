@@ -1,0 +1,16 @@
+[Unit]
+Description=nRF52840 HCI ISO controller (H4 qua USB CDC-ACM) cho Bluetooth LE Audio
+# Chay khi co /dev/ttyRadxaHCI (udev: 90-radxa-nrf-hci.rules), tu dung khi rut dongle
+BindsTo=dev-ttyRadxaHCI.device
+After=dev-ttyRadxaHCI.device
+# Giu co ADDRESS_RESOLUTION cho tai nghe da ghep: dich vu rieng (KHONG dung ExecStartPost: qua 90 s thi systemd giet
+# btattach, hci0 dang ky lai moi 92 s, tai nghe mat ket noi giua luc phat - TEST_REPORT F65)
+Wants=radxa-addr-res.service
+
+[Service]
+Type=simple
+ExecStartPre=/sbin/modprobe hci_uart
+# CDC-ACM la cong ao: toc do khong co y nghia thuc, giu 1000000 cho dong bo voi tai lieu Zephyr
+ExecStart=/usr/bin/btattach -B /dev/ttyRadxaHCI -P h4 -S 1000000
+Restart=on-failure
+RestartSec=2

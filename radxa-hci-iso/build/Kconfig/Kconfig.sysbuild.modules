@@ -1,0 +1,15 @@
+config ZEPHYR_CMSIS_MODULE
+   bool
+   default y
+config ZEPHYR_CMSIS_6_MODULE
+   bool
+   default y
+config ZEPHYR_HAL_NORDIC_MODULE
+   bool
+   default y
+config ZEPHYR_MBEDTLS_MODULE
+   bool
+   default y
+config ZEPHYR_TF_PSA_CRYPTO_MODULE
+   bool
+   default y

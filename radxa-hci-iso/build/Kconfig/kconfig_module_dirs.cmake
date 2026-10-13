@@ -1,0 +1,6 @@
+set(kconfig_env_dirs)
+list(APPEND kconfig_env_dirs ZEPHYR_CMSIS_MODULE_DIR=/home/bbspr/nrf-hci-iso/zephyrproject/modules/hal/cmsis)
+list(APPEND kconfig_env_dirs ZEPHYR_CMSIS_6_MODULE_DIR=/home/bbspr/nrf-hci-iso/zephyrproject/modules/hal/cmsis_6)
+list(APPEND kconfig_env_dirs ZEPHYR_HAL_NORDIC_MODULE_DIR=/home/bbspr/nrf-hci-iso/zephyrproject/modules/hal/nordic)
+list(APPEND kconfig_env_dirs ZEPHYR_MBEDTLS_MODULE_DIR=/home/bbspr/nrf-hci-iso/zephyrproject/modules/crypto/mbedtls)
+list(APPEND kconfig_env_dirs ZEPHYR_TF_PSA_CRYPTO_MODULE_DIR=/home/bbspr/nrf-hci-iso/zephyrproject/modules/crypto/tf-psa-crypto)

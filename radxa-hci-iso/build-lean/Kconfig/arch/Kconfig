@@ -1,0 +1,12 @@
+# Load Zephyr Arch Kconfig descriptions.
+osource "/home/bbspr/nrf-hci-iso/zephyrproject/zephyr/arch/rx/Kconfig"
+osource "/home/bbspr/nrf-hci-iso/zephyrproject/zephyr/arch/x86/Kconfig"
+osource "/home/bbspr/nrf-hci-iso/zephyrproject/zephyr/arch/xtensa/Kconfig"
+osource "/home/bbspr/nrf-hci-iso/zephyrproject/zephyr/arch/sparc/Kconfig"
+osource "/home/bbspr/nrf-hci-iso/zephyrproject/zephyr/arch/riscv/Kconfig"
+osource "/home/bbspr/nrf-hci-iso/zephyrproject/zephyr/arch/posix/Kconfig"
+osource "/home/bbspr/nrf-hci-iso/zephyrproject/zephyr/arch/openrisc/Kconfig"
+osource "/home/bbspr/nrf-hci-iso/zephyrproject/zephyr/arch/mips/Kconfig"
+osource "/home/bbspr/nrf-hci-iso/zephyrproject/zephyr/arch/arm64/Kconfig"
+osource "/home/bbspr/nrf-hci-iso/zephyrproject/zephyr/arch/arm/Kconfig"
+osource "/home/bbspr/nrf-hci-iso/zephyrproject/zephyr/arch/arc/Kconfig"
